@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.AppContainer {
+  /* width: 100vw;
+  height: 100vh; */
+  background: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+}

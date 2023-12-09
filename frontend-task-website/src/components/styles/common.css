@@ -1,0 +1,1353 @@
+/* Desktop Homepage */
+
+position: relative;
+width: 1440px;
+height: 832px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 334 */
+
+position: absolute;
+width: 1440px;
+height: 2442px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #EBF5FE 100%);
+
+
+/* Group 651 */
+
+position: absolute;
+width: 289px;
+height: 236px;
+left: 104px;
+top: 230px;
+
+
+
+/* Explore. */
+
+position: absolute;
+width: 289px;
+height: 76px;
+left: 104px;
+top: 230px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 76px;
+line-height: 76px;
+/* identical to box height, or 100% */
+
+color: #1E1E2F;
+
+
+
+/* Upskill. */
+
+position: absolute;
+width: 259px;
+height: 76px;
+left: 104px;
+top: 310px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 76px;
+line-height: 76px;
+/* identical to box height, or 100% */
+
+color: #1E1E2F;
+
+
+
+/* Elevate. */
+
+position: absolute;
+width: 283px;
+height: 76px;
+left: 104px;
+top: 390px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 76px;
+line-height: 76px;
+/* identical to box height, or 100% */
+
+color: #1E1E2F;
+
+
+
+/* Component 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 898px;
+height: 590px;
+left: 462px;
+top: 126px;
+
+
+
+/* First Frame */
+
+width: 506px;
+height: 590px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 646 */
+
+position: absolute;
+width: 506px;
+height: 590px;
+left: 0px;
+top: 0px;
+
+
+
+/* IMAGE */
+
+position: absolute;
+width: 506px;
+height: 590px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(.png);
+border-radius: 16px;
+
+
+/* Rectangle 308 */
+
+position: absolute;
+width: 96px;
+height: 96px;
+left: 40px;
+top: 416px;
+
+background: #F18F01;
+border-radius: 360px;
+
+
+/* Masterclass */
+
+position: absolute;
+width: 227px;
+height: 29px;
+left: 64px;
+top: 449px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #FFFFFF;
+
+
+
+/* Frame 6 */
+
+position: absolute;
+width: 357px;
+height: 12px;
+left: 64px;
+top: 525px;
+
+
+
+/* Real-world learnings from the best. */
+
+position: absolute;
+width: 266px;
+height: 12px;
+left: 0px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #FFFFFF;
+
+
+
+/* Second Frame */
+
+width: 156px;
+height: 448px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group 647 */
+
+position: absolute;
+width: 156px;
+height: 448px;
+left: 0px;
+top: 0px;
+
+
+
+/* IMAGE */
+
+position: absolute;
+width: 156px;
+height: 448px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(.png);
+border-radius: 16px;
+
+
+/* Frame 8 */
+
+position: absolute;
+width: 150px;
+height: 12px;
+left: 3px;
+top: 436px;
+
+
+
+/* podcast text */
+
+position: absolute;
+width: 270px;
+height: 12px;
+left: 0px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+
+
+/* Rectangle 307 */
+
+position: absolute;
+width: 96px;
+height: 96px;
+left: 16px;
+top: 336px;
+
+background: #115D98;
+border-radius: 360px;
+
+
+/* Webinar */
+
+position: absolute;
+width: 124px;
+height: 23px;
+left: 53px;
+top: 408px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+
+
+/* Third Frame */
+
+width: 156px;
+height: 334px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Group 648 */
+
+position: absolute;
+width: 156px;
+height: 334px;
+left: 0px;
+top: 0px;
+
+
+
+/* IMAGE */
+
+position: absolute;
+width: 156px;
+height: 334px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(.png);
+border-radius: 16px;
+
+
+/* Frame 5 */
+
+position: absolute;
+width: 150px;
+height: 12px;
+left: 3px;
+top: 322px;
+
+
+
+/* podcast text */
+
+position: absolute;
+width: 298px;
+height: 12px;
+left: 0px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+
+
+/* Rectangle 306 */
+
+position: absolute;
+width: 72px;
+height: 72px;
+left: 16px;
+top: 246px;
+
+background: #147B85;
+border-radius: 360px;
+
+
+/* Podcast */
+
+position: absolute;
+width: 101px;
+height: 19px;
+left: 43px;
+top: 302px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 31px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+
+
+/* Component 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 32px 56px;
+gap: 12px;
+
+position: absolute;
+width: 267px;
+height: 79px;
+left: 104px;
+top: 534px;
+
+background: #78C4FE;
+
+
+/* Discover Now */
+
+width: 124px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow 4 */
+
+box-sizing: border-box;
+
+width: 19px;
+height: 0px;
+
+border: 1.5px solid #212121;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Component 16 */
+
+position: absolute;
+width: 1440px;
+height: 86px;
+left: 0px;
+top: 0px;
+
+filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.12));
+
+
+/* Rectangle 349 */
+
+position: absolute;
+width: 1440px;
+height: 840px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle 350 */
+
+position: absolute;
+width: 1440px;
+height: 86px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 138px;
+
+position: absolute;
+width: 1281px;
+height: 40px;
+left: 80px;
+top: 23px;
+
+
+
+/* CB-Logo_original 1 */
+
+margin: 0 auto;
+width: 131px;
+height: 34px;
+
+background: url();
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+margin: 0 auto;
+width: 566px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* What’s New */
+
+width: 89px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #1E1E2F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 743 */
+
+width: 132px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Knowledge Hub */
+
+position: absolute;
+width: 120px;
+height: 12px;
+left: 121px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #1E1E2F;
+
+
+
+/* Vector 10 */
+
+position: absolute;
+width: 4px;
+height: 8px;
+left: 245px;
+top: 4px;
+
+border: 1.5px solid #173D7A;
+transform: matrix(0, 1, 1, 0, 0, 0);
+
+
+/* Group 744 */
+
+width: 70px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* CB News */
+
+position: absolute;
+width: 70px;
+height: 12px;
+left: 285px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #1E1E2F;
+
+
+
+/* Internship */
+
+width: 76px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #1E1E2F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* About Us */
+
+width: 71px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #1E1E2F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+margin: 0 auto;
+width: 224px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Login */
+
+width: 42px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #1E1E2F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 24px;
+gap: 12px;
+
+width: 150px;
+height: 40px;
+
+background: #173D7A;
+border-radius: 360px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Register Now */
+
+width: 102px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 751 */
+
+position: absolute;
+width: 105px;
+height: 120px;
+left: 537px;
+top: 79px;
+
+opacity: 0;
+
+
+/* Group 746 */
+
+position: absolute;
+width: 105px;
+height: 12px;
+left: 537px;
+top: 79px;
+
+
+
+/* Masterclass */
+
+position: absolute;
+width: 91px;
+height: 12px;
+left: 551px;
+top: 79px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #173D7A;
+
+
+
+/* Ellipse 119 */
+
+position: absolute;
+width: 6px;
+height: 6px;
+left: 537px;
+top: 82px;
+
+background: #173D7A;
+
+
+/* Group 747 */
+
+position: absolute;
+width: 76px;
+height: 12px;
+left: 537px;
+top: 115px;
+
+
+
+/* Webinar */
+
+position: absolute;
+width: 62px;
+height: 12px;
+left: 551px;
+top: 115px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #173D7A;
+
+
+
+/* Ellipse 119 */
+
+position: absolute;
+width: 6px;
+height: 6px;
+left: 537px;
+top: 118px;
+
+background: #173D7A;
+
+
+/* Group 748 */
+
+position: absolute;
+width: 105px;
+height: 12px;
+left: 537px;
+top: 151px;
+
+
+
+/* Cb Connect */
+
+position: absolute;
+width: 91px;
+height: 12px;
+left: 551px;
+top: 151px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #173D7A;
+
+
+
+/* Ellipse 119 */
+
+position: absolute;
+width: 6px;
+height: 6px;
+left: 537px;
+top: 154px;
+
+background: #173D7A;
+
+
+/* Group 750 */
+
+position: absolute;
+width: 56px;
+height: 12px;
+left: 537px;
+top: 187px;
+
+
+
+/* Blogs */
+
+position: absolute;
+width: 42px;
+height: 12px;
+left: 551px;
+top: 187px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #173D7A;
+
+
+
+/* Ellipse 119 */
+
+position: absolute;
+width: 6px;
+height: 6px;
+left: 537px;
+top: 190px;
+
+background: #173D7A;
+
+
+/* Group 749 */
+
+position: absolute;
+width: 336px;
+height: 265px;
+left: 148px;
+top: 115px;
+
+opacity: 0;
+
+
+/* And receive updates, expert educational insights, and early access to our platform. */
+
+position: absolute;
+width: 282px;
+height: 64px;
+left: 148px;
+top: 232px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: rgba(30, 30, 47, 0.6);
+
+
+
+/* Frame 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 12px;
+
+position: absolute;
+width: 80px;
+height: 44px;
+left: calc(50% - 80px/2 - 532px);
+top: 336px;
+
+background: #173D7A;
+border-radius: 360px;
+
+
+/* Join */
+
+width: 32px;
+height: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Join our registration list */
+
+position: absolute;
+width: 282px;
+height: 77px;
+left: 148px;
+top: 115px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #1E1E2F;
+
+
+
+/* Group 694 */
+
+position: absolute;
+width: 236px;
+height: 36px;
+left: 248px;
+top: 340px;
+
+
+
+/* Component 12 */
+
+position: absolute;
+left: 20.69%;
+right: 76.81%;
+top: 395.35%;
+bottom: -337.21%;
+
+
+
+/* Group 692 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #ADB8C7;
+
+
+/* Vector */
+
+position: absolute;
+left: 34.97%;
+right: 36.59%;
+top: 24.24%;
+bottom: 22.61%;
+
+background: #44546A;
+
+
+/* Component 15 */
+
+position: absolute;
+left: 31.11%;
+right: 66.39%;
+top: 395.35%;
+bottom: -337.21%;
+
+
+
+/* Group 689 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #ADB8C7;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.25%;
+right: 25.81%;
+top: 24.24%;
+bottom: 25.93%;
+
+background: #44546A;
+
+
+/* Component 13 */
+
+position: absolute;
+left: 24.17%;
+right: 73.33%;
+top: 395.35%;
+bottom: -337.21%;
+
+
+
+/* Group 691 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #ADB8C7;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.24%;
+right: 25.93%;
+top: 24.24%;
+bottom: 25.92%;
+
+background: #44546A;
+
+
+/* Component 14 */
+
+position: absolute;
+left: 27.64%;
+right: 69.86%;
+top: 395.35%;
+bottom: -337.21%;
+
+
+
+/* Group 690 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #ADB8C7;
+
+
+/* Vector */
+
+position: absolute;
+left: 26.39%;
+right: 22.9%;
+top: 30.68%;
+bottom: 28.13%;
+
+background: #44546A;
+
+
+/* Component 11 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 248px;
+top: 340px;
+
+
+
+/* Group 693 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #ADB8C7;
+
+
+/* Subtract */
+
+position: absolute;
+width: 19.92px;
+height: 14.06px;
+left: 7.95px;
+top: 11.05px;
+
+background: #44546A;
+
+
+/* image 104 */
+
+position: absolute;
+width: 485px;
+height: 272px;
+left: 807px;
+top: 108px;
+
+background: url(image.png);
+opacity: 0;
+border-radius: 16px;

@@ -1,0 +1,225 @@
+.navbar-container {
+  background: #ffffff;
+  width: -webkit-fill-available;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 2px 8px 0px #0000001f;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+.open-navbar-2 {
+  box-shadow: 0px 0px 0px 500px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 16px 16px;
+}
+
+.navbar-container .navbar-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 80px;
+  z-index: 1000;
+}
+
+.nav-brand-logo img {
+  cursor: default;
+}
+
+.nav-item-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-item-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.text-wrapper {
+  color: #1e1e2f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.nav-item-3 .login-button {
+  cursor: pointer;
+}
+
+.nav-item-3 .login-button > div {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item-3 .login-button span {
+  margin-right: 4px;
+}
+
+.nav-item-3 .register-button {
+  background-color: #173d7a;
+  border-radius: 360px;
+  padding: 14px 24px;
+  color: #ffffff;
+}
+
+.my-accocunt-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-1 {
+  position: absolute;
+  top: 45px;
+  left: -18px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px #00000014;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-dropdown-1 > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-dropdown-1 > div > span {
+  color: #1e1e2f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.knowledge-hub-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+.knowledge-hub-dropdown ul {
+  color: #173d7a;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.navbar-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 29px 148px 52px;
+}
+
+.nav-2-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.nav-2-head {
+  color: #1e1e2f;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.nav-2-info {
+  color: #1e1e2f99;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.nav-2-social {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.join-button {
+  align-items: center;
+  background-color: #173d7a;
+  border-radius: 360px;
+  padding: 16px 24px;
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.nav-2-social > div {
+  display: flex;
+  gap: 14px;
+}
+
+.nav-2-social > div > .img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-2-social > div > .email {
+  background: url("../../assets/image/email.svg") no-repeat center;
+}
+.nav-2-social > div > .email:hover {
+  background: url("../../assets/image/email1.svg") no-repeat center;
+}
+.nav-2-social > div > .facebook {
+  background: url("../../assets/image/facebook.svg") no-repeat center;
+}
+.nav-2-social > div > .facebook:hover {
+  background: url("../../assets/image/facebook1.svg") no-repeat center;
+}
+.nav-2-social > div > .whatsapp {
+  background: url("../../assets/image/whatsapp.svg") no-repeat center;
+}
+.nav-2-social > div > .whatsapp:hover {
+  background: url("../../assets/image/whatsapp1.svg") no-repeat center;
+}
+.nav-2-social > div > .twiter {
+  background: url("../../assets/image/twiter.svg") no-repeat center;
+}
+.nav-2-social > div > .twiter:hover {
+  background: url("../../assets/image/twiter1.svg") no-repeat center;
+}
+.nav-2-social > div > .instagram {
+  background: url("../../assets/image/instagram.svg") no-repeat center;
+}
+.nav-2-social > div > .instagram:hover {
+  background: url("../../assets/image/instagram1.svg") no-repeat center;
+}
