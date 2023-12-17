@@ -1,0 +1,136 @@
+.card-container {
+  margin-top: 100px;
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+  width: fit-content;
+}
+
+.card-container > .card-box {
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease, opacity 0.5s ease;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.card-head {
+  position: relative;
+}
+
+.card-color {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: var(--background);
+}
+
+.card-title {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-title {
+  transform: rotate(-90deg);
+  transform-origin: 26px 26px;
+}
+
+.card-description {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding-left: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-description {
+  display: none;
+  opacity: 0;
+}
+
+/* 1. first card box */
+.card-container > .card-box:first-child .card-info {
+  bottom: 53px;
+  left: 40px;
+}
+
+.card-container > .card-box:first-child .card-title {
+  transform: rotate(0deg);
+  transform-origin: left;
+}
+
+.card-container > .card-box:first-child .card-description {
+  display: block;
+  opacity: 1;
+}
+
+/* 2. all card box hover */
+.card-container:hover > .card-box .card-info {
+  bottom: 16px;
+  left: 16px;
+}
+
+.card-container:hover > .card-box .card-title {
+  transform: rotate(-90deg);
+  transform-origin: 26px 26px;
+}
+
+.card-container:hover > .card-box .card-description {
+  display: none;
+  opacity: 0;
+}
+
+/* 3. all card box except hover card box */
+.card-container:hover > .card-box:hover ~ .card-box .card-info {
+  bottom: 16px;
+  left: 16px;
+}
+
+.card-container:hover > .card-box:hover ~ .card-box .card-title {
+  transform: rotate(-90deg);
+  transform-origin: 26px 26px;
+}
+
+.card-container:hover > .card-box:hover ~ .card-box .card-description {
+  display: none;
+  opacity: 0;
+}
+
+/* 4. hover card box */
+.card-container:hover > .card-box:hover .card-info {
+  bottom: 53px;
+  left: 40px;
+}
+
+.card-container:hover > .card-box:hover .card-title {
+  transform: rotate(0deg);
+  transform-origin: left;
+}
+
+.card-container:hover > .card-box:hover .card-description {
+  display: block;
+  opacity: 1;
+}
